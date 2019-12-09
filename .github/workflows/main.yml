@@ -18,4 +18,4 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
           name: Artifact
-          #path: artifact
+          path: artifact
