@@ -15,7 +15,7 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.        
-    - uses: actions/upload-artifact@v1
+    - uses: actions/download-artifact@v1
       with:
-          name: Artifact
-          path: /artifact
+        name: my-artifact
+        path: path/to/artifact
